@@ -2,7 +2,7 @@
 
 [**Live Website**](https://krasnomakov.github.io/my_first_website/templates/index.html)
 
-This is my first website that I made during my semester 1 at Fontys ICT & Media Design.
+This is my first website that I made during my semester 1 at Fontys ICT & Media Design. Fall 2022.
 
 ## Technologies Used
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
