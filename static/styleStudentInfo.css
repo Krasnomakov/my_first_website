@@ -1,0 +1,378 @@
+img {
+    width: 200px;
+    height: auto;
+    margin-top: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 1px;
+    
+
+}
+
+
+a:link {
+  text-decoration: none;
+}
+
+body {
+    
+    background-color: #000000;
+    padding: 10px;
+
+  }
+
+div {
+  align-items: center;
+}
+  
+  .fakeScreen {
+    margin: 2%;
+    background: #282A3A;
+    max-width: 500px;
+    height: 600px;
+    box-shadow: 0 2px 3px 0px rgba(255, 255, 255, 0.25);
+    border-radius: 1px;
+    transition: .2s all;
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    font-size: 13px;
+    padding-top: 30px;
+    margin: 10px;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+  }
+  .lines{
+    margin-left: 190px;
+    margin-top: 20px;
+
+  }
+  p {
+    position: relative;
+    left: 50%;
+    margin-left: -15em;
+    text-align: left;
+    font-size: 1.25em;
+    font-family: monospace;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+  }
+  
+  span {
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .line1 {
+    color: #C69749;
+    -webkit-animation: type .2s 0.5s steps(20, end) forwards;
+    -moz-animation: type .2s 0.5s steps(20, end) forwards;
+    -o-animation: type .2s 0.5s steps(20, end) forwards;
+    animation: type .2s 0.5s steps(20, end) forwards;
+  }
+  
+  .cursor1 {
+    -webkit-animation: blink 0.8s 0.5s 2 forwards;
+    -moz-animation: blink 0.8s 0.5s 2 forwards;
+    -o-animation: blink 0.8s 0.5s 2 forwards;
+    animation: blink 0.8s 0.5s 2 forwards;
+  }
+  
+  .line2 {
+    color: #C69749;
+    -webkit-animation: type .2s 2s steps(20, end) forwards;
+    -moz-animation: type .2s 2s steps(20, end) forwards;
+    -o-animation: type .2s 2s steps(20, end) forwards;
+    animation: type .2s 2s steps(20, end) forwards;
+  }
+  
+  .cursor2 {
+    -webkit-animation: blink 0.8s 2.2s 2 forwards;
+    -moz-animation: blink 0.8s 2.2s 2 forwards;
+    -o-animation: blink 0.8s 2.2s 2 forwards;
+    animation: blink 0.8s 2.2s 2 forwards;
+  }
+  
+  .line3 {
+    color: #C69749;
+    -webkit-animation: type .2s 4s steps(20, end) forwards;
+    -moz-animation: type .2s 4s steps(20, end) forwards;
+    -o-animation: type .2s 4s steps(20, end) forwards;
+    animation: type .2s 4s steps(20, end) forwards;
+  }
+  
+  .cursor3 {
+    -webkit-animation: blink 0.8s 4s 2 forwards;
+    -moz-animation: blink 0.8s 4s 2 forwards;
+    -o-animation: blink 0.8s 4s 2 forwards;
+    animation: blink 0.8s 4s 2 forwards;
+  }
+
+  .line5 {
+    color: #C69749;
+    -webkit-animation: type .2s 5s steps(20, end) forwards;
+    -moz-animation: type .2s 5s steps(20, end) forwards;
+    -o-animation: type .2s 5s steps(20, end) forwards;
+    animation: type .2s 5s steps(20, end) forwards;
+  }
+  
+  .cursor5 {
+    -webkit-animation: blink 1s 5s  forwards;
+    -moz-animation: blink 1s 5s  forwards;
+    -o-animation: blink 1s 5s  forwards;
+    animation: blink 1s 5s  forwards;
+  }
+  .line6 {
+    color: #C69749;
+    -webkit-animation: type .2s 6s steps(20, end) forwards;
+    -moz-animation: type .2s 6s steps(20, end) forwards;
+    -o-animation: type .2s 6s steps(20, end) forwards;
+    animation: type .5s 6s steps(20, end) forwards;
+  }
+  
+  .cursor6 {
+    -webkit-animation: blink 1s 6.2s  forwards;
+    -moz-animation: blink 1s 6.2s  forwards;
+    -o-animation: blink 1s 6.2s  forwards;
+    animation: blink 1s 6.2s  forwards;
+  }
+  
+  .line7 {
+    color: #fff;
+    -webkit-animation: type .2s 7s steps(20, end) forwards;
+    -moz-animation: type .2s 7s steps(20, end) forwards;
+    -o-animation: type .2s 7s steps(20, end) forwards;
+    animation: type .2s 7s steps(20, end) forwards;
+  }
+  
+  .cursor7 {
+    -webkit-animation: blink 1s 7.2s forwards;
+    -moz-animation: blink 1s 7.2s forwards;
+    -o-animation: blink 1s 7.2s forwards;
+    animation: blink 1s 7.2s forwards;
+  }
+
+  
+  
+  @-webkit-keyframes blink {
+    0% {
+      opacity: 0;
+    }
+    40% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    90% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  @-moz-keyframes blink {
+    0% {
+      opacity: 0;
+    }
+    40% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    90% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  @-o-keyframes blink {
+    0% {
+      opacity: 0;
+    }
+    40% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    90% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  @keyframes blink {
+    0% {
+      opacity: 0;
+    }
+    40% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    90% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  @-webkit-keyframes type {
+    to {
+      width: 20em;
+    }
+  }
+  
+  @-moz-keyframes type {
+    to {
+      width: 20em;
+    }
+  }
+  
+  @-o-keyframes type {
+    to {
+      width: 20em;
+    }
+  }
+  
+  @keyframes type {
+    to {
+      width: 20em;
+    }
+  }
+
+  .container {
+  
+    display: block;
+    width: 400px;
+    margin-left: auto;;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 50px;
+    display:inline-block;
+  }
+  
+  .pixel2 {
+    font-size: 25px;
+    color: #C69749;
+    border:none;
+    border:solid 2px #C69749;
+    height: auto;
+    margin: 10px;
+    margin-left: 250px;
+    font-family: 'VT323';
+    
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    text-transform: uppercase;
+    
+    cursor: pointer;
+    
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  .pixel2 {
+    padding: 10px 10px;
+    position:relative;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background: #282A3A;
+    width: 200px;
+    font-family: "Press Start 2P";
+    z-index: 2;
+    text-decoration: none;
+  }
+  .pixel2:active {
+    top: 2px;
+    text-decoration: none;
+    border:none;
+    border:solid 2px #C69749;
+  }
+  
+  
+  
+  .pixel2::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 10px;
+    bottom: 10px;
+    left: -10px;
+    right: -10px;
+    background: #282A3A;
+    z-index: -1;
+    border:none;
+    border:solid 2px #C69749;
+  }
+  
+  .pixel2::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 4px;
+    bottom: 4px;
+    left: -6px;
+    right: -6px;
+    background: #282A3A;
+    z-index: -1;
+    border:none;
+    border:solid 2px #C69749;
+  }
+  
+
+
+  
+  a{
+    text-decoration: none;
+  }
+
+  h1{
+    margin-bottom: 15px;
+  
+    font-size: 44px;
+    color: #C69749;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    text-align: center;
+    font-family: "Press Start 2P";
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.37);
+    backdrop-filter: blur( 1.5px );
+    -webkit-backdrop-filter: blur( 1.5px );
+    border-radius: 1px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    max-width: 700;
+    align-items: center;
+    
+  }
+
+  @media screen and (max-width: 992px) {
+    .lines{
+      margin-left: 170px;
+      margin-top: 20px;
+  
+    }
+
+  }
